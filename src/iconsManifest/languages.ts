@@ -21,6 +21,11 @@ export const languages = {
   applescript: { ids: 'applescript', knownExtensions: ['applescript'] },
   asciidoc: { ids: 'asciidoc', knownExtensions: ['adoc'] },
   asp: { ids: ['asp', 'asp (html)'], knownExtensions: ['asp'] },
+  starlight: {
+  ids: 'starlight',
+  knownExtensions: ['sl'],
+},
+
   assembly: {
     ids: [
       'arm',
@@ -165,6 +170,7 @@ export const languages = {
   dotenv: { ids: ['dotenv', 'env'], knownExtensions: ['env'] },
   dotjs: { ids: 'dotjs', knownExtensions: ['dot'] },
   doxygen: { ids: 'doxygen', knownExtensions: ['dox'] },
+
   drawio: { ids: 'drawio', knownExtensions: ['drawio'] },
   drools: { ids: 'drools', knownExtensions: ['drl'] },
   dtd: { ids: 'dtd', knownExtensions: ['dtd'] },
